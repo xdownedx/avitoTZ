@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		727738A425A4C59A005B9322 /* result.json in Resources */ = {isa = PBXBuildFile; fileRef = 727738A325A4C599005B9322 /* result.json */; };
+		727738A725A4C5C6005B9322 /* modelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727738A625A4C5C6005B9322 /* modelData.swift */; };
 		72F2D98825A08AAA0031812F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F2D98725A08AAA0031812F /* AppDelegate.swift */; };
 		72F2D98A25A08AAA0031812F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F2D98925A08AAA0031812F /* SceneDelegate.swift */; };
 		72F2D98C25A08AAA0031812F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F2D98B25A08AAA0031812F /* ViewController.swift */; };
-		72F2D98F25A08AAA0031812F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D98D25A08AAA0031812F /* Main.storyboard */; };
 		72F2D99125A08AAF0031812F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D99025A08AAF0031812F /* Assets.xcassets */; };
 		72F2D99425A08AAF0031812F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D99225A08AAF0031812F /* LaunchScreen.storyboard */; };
+		72F2D99E25A0911B0031812F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F2D99C25A0911B0031812F /* CollectionViewCell.swift */; };
+		72F2D99F25A0911B0031812F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D99D25A0911B0031812F /* CollectionViewCell.xib */; };
+		72F2D9B225A093500031812F /* Averta Cyrillic Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9A225A093500031812F /* Averta Cyrillic Thin.otf */; };
+		72F2D9B325A093500031812F /* Averta Cyrillic SemiBold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9A325A093500031812F /* Averta Cyrillic SemiBold Italic.otf */; };
+		72F2D9B425A093510031812F /* Averta Cyrillic Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9A425A093500031812F /* Averta Cyrillic Thin Italic.otf */; };
+		72F2D9B525A093510031812F /* Averta Cyrillic ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9A525A093500031812F /* Averta Cyrillic ExtraBold.otf */; };
+		72F2D9B625A093510031812F /* Averta Cyrillic Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9A625A093500031812F /* Averta Cyrillic Bold.otf */; };
+		72F2D9B725A093510031812F /* Averta Cyrillic Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9A725A093500031812F /* Averta Cyrillic Regular.otf */; };
+		72F2D9B825A093510031812F /* Averta Cyrillic Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9A825A093500031812F /* Averta Cyrillic Black Italic.otf */; };
+		72F2D9B925A093510031812F /* Averta Cyrillic Extra Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9A925A093500031812F /* Averta Cyrillic Extra Thin.otf */; };
+		72F2D9BA25A093510031812F /* Averta Cyrillic Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9AA25A093500031812F /* Averta Cyrillic Bold Italic.otf */; };
+		72F2D9BB25A093510031812F /* Averta Cyrillic Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9AB25A093500031812F /* Averta Cyrillic Light.otf */; };
+		72F2D9BC25A093510031812F /* Averta Cyrillic Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9AC25A093500031812F /* Averta Cyrillic Regular Italic.otf */; };
+		72F2D9BD25A093510031812F /* Averta Cyrillic Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9AD25A093500031812F /* Averta Cyrillic Black.otf */; };
+		72F2D9BE25A093510031812F /* Averta Cyrillic Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9AE25A093500031812F /* Averta Cyrillic Light Italic.otf */; };
+		72F2D9BF25A093510031812F /* Averta Cyrillic Extra Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9AF25A093500031812F /* Averta Cyrillic Extra Thin Italic.otf */; };
+		72F2D9C025A093510031812F /* Averta Cyrillic ExtraBold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9B025A093500031812F /* Averta Cyrillic ExtraBold Italic.otf */; };
+		72F2D9C125A093510031812F /* Averta Cyrillic SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72F2D9B125A093500031812F /* Averta Cyrillic SemiBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		727738A325A4C599005B9322 /* result.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = result.json; path = "../../../Downloads/internship-main/result.json"; sourceTree = "<group>"; };
+		727738A625A4C5C6005B9322 /* modelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelData.swift; sourceTree = "<group>"; };
 		72F2D98425A08AAA0031812F /* avitoTZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avitoTZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F2D98725A08AAA0031812F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72F2D98925A08AAA0031812F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		72F2D98B25A08AAA0031812F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		72F2D98E25A08AAA0031812F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72F2D99025A08AAF0031812F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72F2D99325A08AAF0031812F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72F2D99525A08AAF0031812F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F2D99C25A0911B0031812F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		72F2D99D25A0911B0031812F /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		72F2D9A225A093500031812F /* Averta Cyrillic Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic Thin.otf"; sourceTree = "<group>"; };
+		72F2D9A325A093500031812F /* Averta Cyrillic SemiBold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic SemiBold Italic.otf"; sourceTree = "<group>"; };
+		72F2D9A425A093500031812F /* Averta Cyrillic Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic Thin Italic.otf"; sourceTree = "<group>"; };
+		72F2D9A525A093500031812F /* Averta Cyrillic ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic ExtraBold.otf"; sourceTree = "<group>"; };
+		72F2D9A625A093500031812F /* Averta Cyrillic Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic Bold.otf"; sourceTree = "<group>"; };
+		72F2D9A725A093500031812F /* Averta Cyrillic Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic Regular.otf"; sourceTree = "<group>"; };
+		72F2D9A825A093500031812F /* Averta Cyrillic Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic Black Italic.otf"; sourceTree = "<group>"; };
+		72F2D9A925A093500031812F /* Averta Cyrillic Extra Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic Extra Thin.otf"; sourceTree = "<group>"; };
+		72F2D9AA25A093500031812F /* Averta Cyrillic Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic Bold Italic.otf"; sourceTree = "<group>"; };
+		72F2D9AB25A093500031812F /* Averta Cyrillic Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic Light.otf"; sourceTree = "<group>"; };
+		72F2D9AC25A093500031812F /* Averta Cyrillic Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic Regular Italic.otf"; sourceTree = "<group>"; };
+		72F2D9AD25A093500031812F /* Averta Cyrillic Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic Black.otf"; sourceTree = "<group>"; };
+		72F2D9AE25A093500031812F /* Averta Cyrillic Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic Light Italic.otf"; sourceTree = "<group>"; };
+		72F2D9AF25A093500031812F /* Averta Cyrillic Extra Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic Extra Thin Italic.otf"; sourceTree = "<group>"; };
+		72F2D9B025A093500031812F /* Averta Cyrillic ExtraBold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic ExtraBold Italic.otf"; sourceTree = "<group>"; };
+		72F2D9B125A093500031812F /* Averta Cyrillic SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta Cyrillic SemiBold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +96,41 @@
 			children = (
 				72F2D98725A08AAA0031812F /* AppDelegate.swift */,
 				72F2D98925A08AAA0031812F /* SceneDelegate.swift */,
+				727738A625A4C5C6005B9322 /* modelData.swift */,
 				72F2D98B25A08AAA0031812F /* ViewController.swift */,
-				72F2D98D25A08AAA0031812F /* Main.storyboard */,
+				72F2D99C25A0911B0031812F /* CollectionViewCell.swift */,
+				72F2D99D25A0911B0031812F /* CollectionViewCell.xib */,
 				72F2D99025A08AAF0031812F /* Assets.xcassets */,
 				72F2D99225A08AAF0031812F /* LaunchScreen.storyboard */,
+				727738A325A4C599005B9322 /* result.json */,
+				72F2D9A125A093500031812F /* Font */,
 				72F2D99525A08AAF0031812F /* Info.plist */,
 			);
 			path = avitoTZ;
+			sourceTree = "<group>";
+		};
+		72F2D9A125A093500031812F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				72F2D9A225A093500031812F /* Averta Cyrillic Thin.otf */,
+				72F2D9A325A093500031812F /* Averta Cyrillic SemiBold Italic.otf */,
+				72F2D9A425A093500031812F /* Averta Cyrillic Thin Italic.otf */,
+				72F2D9A525A093500031812F /* Averta Cyrillic ExtraBold.otf */,
+				72F2D9A625A093500031812F /* Averta Cyrillic Bold.otf */,
+				72F2D9A725A093500031812F /* Averta Cyrillic Regular.otf */,
+				72F2D9A825A093500031812F /* Averta Cyrillic Black Italic.otf */,
+				72F2D9A925A093500031812F /* Averta Cyrillic Extra Thin.otf */,
+				72F2D9AA25A093500031812F /* Averta Cyrillic Bold Italic.otf */,
+				72F2D9AB25A093500031812F /* Averta Cyrillic Light.otf */,
+				72F2D9AC25A093500031812F /* Averta Cyrillic Regular Italic.otf */,
+				72F2D9AD25A093500031812F /* Averta Cyrillic Black.otf */,
+				72F2D9AE25A093500031812F /* Averta Cyrillic Light Italic.otf */,
+				72F2D9AF25A093500031812F /* Averta Cyrillic Extra Thin Italic.otf */,
+				72F2D9B025A093500031812F /* Averta Cyrillic ExtraBold Italic.otf */,
+				72F2D9B125A093500031812F /* Averta Cyrillic SemiBold.otf */,
+			);
+			name = Font;
+			path = ../../s4u/s4u/Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +191,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				72F2D99425A08AAF0031812F /* LaunchScreen.storyboard in Resources */,
+				72F2D9B325A093500031812F /* Averta Cyrillic SemiBold Italic.otf in Resources */,
+				72F2D9BB25A093510031812F /* Averta Cyrillic Light.otf in Resources */,
+				72F2D9C025A093510031812F /* Averta Cyrillic ExtraBold Italic.otf in Resources */,
+				72F2D9B725A093510031812F /* Averta Cyrillic Regular.otf in Resources */,
 				72F2D99125A08AAF0031812F /* Assets.xcassets in Resources */,
-				72F2D98F25A08AAA0031812F /* Main.storyboard in Resources */,
+				72F2D99F25A0911B0031812F /* CollectionViewCell.xib in Resources */,
+				72F2D9B825A093510031812F /* Averta Cyrillic Black Italic.otf in Resources */,
+				72F2D9C125A093510031812F /* Averta Cyrillic SemiBold.otf in Resources */,
+				72F2D9BC25A093510031812F /* Averta Cyrillic Regular Italic.otf in Resources */,
+				727738A425A4C59A005B9322 /* result.json in Resources */,
+				72F2D9BA25A093510031812F /* Averta Cyrillic Bold Italic.otf in Resources */,
+				72F2D9B425A093510031812F /* Averta Cyrillic Thin Italic.otf in Resources */,
+				72F2D9BD25A093510031812F /* Averta Cyrillic Black.otf in Resources */,
+				72F2D9BE25A093510031812F /* Averta Cyrillic Light Italic.otf in Resources */,
+				72F2D9BF25A093510031812F /* Averta Cyrillic Extra Thin Italic.otf in Resources */,
+				72F2D9B225A093500031812F /* Averta Cyrillic Thin.otf in Resources */,
+				72F2D9B525A093510031812F /* Averta Cyrillic ExtraBold.otf in Resources */,
+				72F2D9B925A093510031812F /* Averta Cyrillic Extra Thin.otf in Resources */,
+				72F2D9B625A093510031812F /* Averta Cyrillic Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727738A725A4C5C6005B9322 /* modelData.swift in Sources */,
 				72F2D98C25A08AAA0031812F /* ViewController.swift in Sources */,
 				72F2D98825A08AAA0031812F /* AppDelegate.swift in Sources */,
+				72F2D99E25A0911B0031812F /* CollectionViewCell.swift in Sources */,
 				72F2D98A25A08AAA0031812F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +231,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		72F2D98D25A08AAA0031812F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72F2D98E25A08AAA0031812F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		72F2D99225A08AAF0031812F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
