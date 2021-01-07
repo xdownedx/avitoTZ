@@ -33,22 +33,22 @@
                         </constraints>
                     </imageView>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Ooq-be-kMQ">
-                        <rect key="frame" x="94" y="14" width="229" height="80"/>
+                        <rect key="frame" x="94" y="14" width="229" height="77.5"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XL объявление" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsa-ko-Omr">
-                                <rect key="frame" x="0.0" y="0.0" width="158.5" height="27.5"/>
-                                <fontDescription key="fontDescription" name="AvertaCY-Bold" family="Averta CY" pointSize="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1111111111111111111111111" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsa-ko-Omr">
+                                <rect key="frame" x="0.0" y="0.0" width="228.5" height="25"/>
+                                <fontDescription key="fontDescription" name="AvertaCY-Bold" family="Averta CY" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fdsdfsdfsdsdsdfssdfsf" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esE-LC-NcE">
-                                <rect key="frame" x="0.0" y="35.5" width="158.5" height="16.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2222222222222222222222222222222222" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esE-LC-NcE">
+                                <rect key="frame" x="0.0" y="33" width="228.5" height="16.5"/>
                                 <fontDescription key="fontDescription" name="AvertaCY-Regular" family="Averta CY" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="356 ₽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2kw-Lg-okw">
-                                <rect key="frame" x="0.0" y="60" width="40.5" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="33333333333333333333333333" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2kw-Lg-okw">
+                                <rect key="frame" x="0.0" y="57.5" width="225.5" height="20"/>
                                 <fontDescription key="fontDescription" name="AvertaCY-Bold" family="Averta CY" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
