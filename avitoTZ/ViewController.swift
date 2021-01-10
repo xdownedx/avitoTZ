@@ -141,7 +141,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         if description.count%42 > 0{
             heightDescription+=1
         }
-        return heightTitle*25 + heightDescription*17 + 70
+        return heightTitle*25 + heightDescription*17 + 80
     }
     // MARK: Action Button
     @objc func buttonAction(sender: UIButton!) {
